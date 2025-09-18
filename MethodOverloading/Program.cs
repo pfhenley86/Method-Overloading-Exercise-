@@ -38,7 +38,9 @@
         
         static void Main(string[] args)
         {
+            Console.WriteLine(Add(2,2));
             Console.WriteLine(Add(2.0m,2.0m));
+            Console.WriteLine(Add(6,3,true));
         }
     }
 }
